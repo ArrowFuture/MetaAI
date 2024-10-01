@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #0078FF, #8A3FFC, #00BFFF);
+  color: #1C1C1E;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.hero {
+  flex: 1;
+  background: linear-gradient(135deg, rgba(0, 120, 255, 0.6), rgba(138, 63, 252, 0.6), rgba(0, 191, 255, 0.6));
+  color: white;
+}
+.navbar {
+  background-color: rgba(28, 28, 30, 0.8);
+}
+.navbar .nav-link {
+  color: #F0F0F0;
+}
+.navbar .nav-link:hover {
+  color: #8A3FFC;
+}
+section {
+  padding: 50px 0;
+}
+section.servicios,
+section.contacto {
+  background: transparent;
+}
+section.servicios h2,
+section.contacto h2 {
+  color: #F0F0F0;
+}
+section.servicios .card,
+section.contacto .card {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #1C1C1E;
+}
+section.servicios .card .card-title,
+section.contacto .card .card-title {
+  color: #0078FF;
+}
+section.servicios .card .card-text,
+section.contacto .card .card-text {
+  color: #1C1C1E;
+}
+footer {
+  background-color: rgba(28, 28, 30, 0.8);
+  color: #F0F0F0;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+footer p {
+  color: #F0F0F0;
+}
+button {
+  background-color: #0078FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #8A3FFC;
+}
+a {
+  color: #0078FF;
+  text-decoration: none;
+}
+a:hover {
+  color: #8A3FFC;
+}
+#section-nosotros {
+  color: white;
+  text-align: center;
+}
+#section-blog {
+  color: white;
+  text-align: center;
+}
+#contacto #imgcontacto {
+  max-width: 300px;
+  border: 5px solid #1C1C1E;
+  display: block;
+  margin: 0 auto;
+}
+#contacto form .form-group {
+  margin-bottom: 20px;
+  color: white;
+}
+#contacto form button {
+  background-color: #0078FF;
+  color: white;
+}
+#contacto form button:hover {
+  background-color: #8A3FFC;
+}
+.rounded-custom {
+  max-width: 600px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  width: 250%;
+  height: 300px;
+}
